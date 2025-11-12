@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Authentication Exam Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <h1>🎙️ Online Exam Voice Authentication</h1>
+      <p>Secure your exam with real-time voice verification</p>
+    </header>
+
+    <main class="main-content">
+      <div class="form-card">
+        <h2>🔐 Voice Registration</h2>
+        <input type="text" id="studentIdRegister" placeholder="Enter Student ID" />
+        <button id="registerBtn" class="action-btn">Register Voice</button>
+      </div>
+
+      <div class="form-card">
+        <h2>🎧 Voice Verification</h2>
+        <input type="text" id="studentIdVerify" placeholder="Enter Student ID" />
+        <button id="verifyBtn" class="action-btn">Verify Voice</button>
+      </div>
+
+      <div id="statusContainer" class="status-container hidden">
+        <div id="statusIndicator" class="status-indicator"></div>
+        <h3 id="statusMessage">Waiting for action...</h3>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Voice Authentication Exam System | Built with Python & Flask</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

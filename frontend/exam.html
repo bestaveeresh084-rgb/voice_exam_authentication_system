@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Exam Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="exam.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Online Exam</h1>
+    <h3 id="studentName"></h3>
+
+    <div id="quiz">
+      <div class="question">
+        <p>1️⃣ What is the capital of France?</p>
+        <label><input type="radio" name="q1" value="Paris"> Paris</label><br>
+        <label><input type="radio" name="q1" value="London"> London</label><br>
+        <label><input type="radio" name="q1" value="Berlin"> Berlin</label>
+      </div>
+
+      <div class="question">
+        <p>2️⃣ Which language is used for Machine Learning?</p>
+        <label><input type="radio" name="q2" value="Python"> Python</label><br>
+        <label><input type="radio" name="q2" value="HTML"> HTML</label><br>
+        <label><input type="radio" name="q2" value="CSS"> CSS</label>
+      </div>
+
+      <div class="question">
+        <p>3️⃣ 2 + 2 = ?</p>
+        <label><input type="radio" name="q3" value="3"> 3</label><br>
+        <label><input type="radio" name="q3" value="4"> 4</label><br>
+        <label><input type="radio" name="q3" value="5"> 5</label>
+      </div>
+
+      <button id="submitExam">Submit Exam</button>
+    </div>
+
+    <div id="resultBox" class="hidden">
+      <h2 id="scoreText"></h2>
+      <button onclick="window.location.href='index.html'">Logout</button>
+    </div>
+  </div>
+</body>
+</html>
