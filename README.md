@@ -1,8 +1,4 @@
 ---
-
-## 📄 **README.md**
-
-````markdown
 # 🎤 Voice Authentication Online Exam System
 
 This project is a **voice-based authentication and online examination platform** built with **Python (Flask)** and **HTML/CSS/JavaScript**.  
